@@ -14,7 +14,7 @@
       var h = s.querySelector("h2");
       items.push({ title: s.id === "home" ? "Home" : (h ? text(h) : s.id), group: "Go to", el: s, block: "start", kw: "" });
     });
-    [["#skills .app-card", "Skills"], ["#platforms .platform-row", "Platforms"], ["#work .case", "Work"]].forEach(function (g) {
+    [["#skills .app-card", "Skills"], ["#platforms .platform-row", "Platforms"], ["#work .case", "Work"], ["#lab .app-card", "AI"]].forEach(function (g) {
       document.querySelectorAll(g[0]).forEach(function (el) {
         var h = el.querySelector("h3");
         if (h) items.push({ title: text(h), group: g[1], el: el, block: "center", kw: text(el).toLowerCase().slice(0, 700) });
