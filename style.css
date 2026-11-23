@@ -331,3 +331,10 @@ button { font: inherit; }
 .chip-label { min-width: 108px; align-self: center; color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
 .platform-info .chips + .chips { margin-top: 8px; }
 @media (max-width: 520px) { .chip-label { min-width: 100%; } }
+
+/* "Looking for" strip */
+.looking { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin: 22px 0 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--line); }
+.looking div { padding: 14px 18px; background: var(--panel); }
+.looking span { display: block; margin-bottom: 4px; color: var(--subtle); font: 11px ui-monospace,"SF Mono","Cascadia Code",Menlo,Consolas,monospace; letter-spacing: .08em; text-transform: uppercase; }
+.looking b { color: var(--ink); font-size: 14px; font-weight: 600; }
+@media (max-width: 720px) { .looking { grid-template-columns: 1fr; } }
