@@ -338,3 +338,7 @@ button { font: inherit; }
 .looking span { display: block; margin-bottom: 4px; color: var(--subtle); font: 11px ui-monospace,"SF Mono","Cascadia Code",Menlo,Consolas,monospace; letter-spacing: .08em; text-transform: uppercase; }
 .looking b { color: var(--ink); font-size: 14px; font-weight: 600; }
 @media (max-width: 720px) { .looking { grid-template-columns: 1fr; } }
+
+/* SVG icons */
+.app-icon svg { width: 20px; height: 20px; }
+.platform-logo svg { width: 23px; height: 23px; }
