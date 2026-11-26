@@ -32,4 +32,4 @@ Personal portfolio of a Network & Systems Administrator. A static site in plain 
 
 ## Contact
 
-hamedhosseini7052@yahoo.com · [LinkedIn](https://www.linkedin.com/in/hamed-hosseini-b5079362/)
+hamedhosseini7052@yahoo.com · [LinkedIn](https://www.linkedin.com/in/seyed-hamedhosseini-b5079362/)
