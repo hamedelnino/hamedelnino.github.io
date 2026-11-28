@@ -342,3 +342,10 @@ button { font: inherit; }
 /* SVG icons */
 .app-icon svg { width: 20px; height: 20px; }
 .platform-logo svg { width: 23px; height: 23px; }
+
+/* Links to the GitHub toolkit */
+.work-note { margin: -6px 0 18px; color: var(--muted); font-size: 14px; }
+.work-note a, .case-links a { color: var(--orange-light); }
+.case-links { margin: 14px 0 0; font-size: 13px; }
+.case-links a { margin-right: 16px; }
+.work-note a:hover, .case-links a:hover { text-decoration: underline; }
